@@ -4,43 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Pizza</title>
   </head>
   <body>
     <header class="header">
-      <div class="header container">
-        <a class="img">
-          <img class="logo" alt="логотип" src="img/logo.png" href="#" />
+      <div class="header-container">
+        <a class="header-img">
+          <img class="logo" alt="логотип" src="img/logo.png" />
         </a>
         <ul class="header-list">
           <li class="header-item">
-            <a class="header-link" href="#">Про нас.</a>
+            <a class="header-link" href="#">Про нас</a>
           </li>
 
           <li class="">
-            <a class="header-link" href="#">Інгрідієнти.</a>
+            <a class="header-link" href="#">Інгрідієнти</a>
           </li>
         </ul>
       </div>
     </header>
     <main class="content">
       <!--головна секція-->
-
       <section class="hero">
-        <div class="hero-container container">
-          <img class="hero-img" alt="pizza" src="img/hero-img.png" />
+        <div class="container hero-container">
+          <img class="hero-img" src="img/hero-img.png" alt="Піца" />
           <div class="hero-wrap">
-            <h1 class="hero-title">Приготуємо смачну піцу!</h1>
+            <h1 class="hero-title">Приготуємо смачнющу піцу!</h1>
+            <p class="hero-text">
+              Тонка, соковита, м'яка, ніжна, тепла, ароматна - це все про неї,
+              про піцу! Ідеальне поєднання продуктів: тягнеться сир і капає сік
+              з помідорів - чи це не рай для гурмана? Пропоную вам приготувати
+              піцу разом!
+            </p>
+            <span>Побалуйте внутрішнього ласунчика</span>
           </div>
-
-          <p class="hero-text">
-            Тонка, соковита, м'яка, ніжна, тепла, ароматна - це все про неї, про
-            піцу! Ідеальне поєднання продуктів: тягнеться сир і капає сік з
-            помідорів - чи це не рай для гурмана? Пропоную вам приготувати піцу
-            разом!
-          </p>
-
-          <p class="hero-text">Побалуйте внутрішнього ласунчика</p>
         </div>
       </section>
       <!--Інгрідієнти для тіста-->
@@ -69,7 +66,7 @@
             </p>
           </div>
 
-          <img src="img/dough.png" alt="тісто" class="dough-img" />
+          <img src="img/dough-img.png" alt="тісто" class="dough-img" />
         </div>
       </section>
 
@@ -94,7 +91,7 @@
               <li class="filling-item">чорні оливки.</li>
             </ul>
 
-            <p>
+            <p class="filling-text">
               Змасти корж кетчупом. Натри сир та злегка присип ним тісто.
               Приправ орегано — спеція додасть піці духмяного аромату. Поріж
               шинку/салямі невеличкими шматочками та рівномірно виклади на піцу.
@@ -107,11 +104,13 @@
         </div>
       </section>
 
+      <!--факти-->
+
       <section class="facts">
         <div class="facts-container container">
           <img class="facts-img" src="img/facts.png" alt="факти" />
           <div class="facts-wrap">
-            <h2 class="facts-text">Факти про піцу які ви можливо не знали.</h2>
+            <h2 class="facts-title">Факти про піцу які ви можливо не знали.</h2>
             <ul class="facts-list">
               <li class="facts-item">
                 Піца виникла у Неаполі, Італія, близько 18 століття як страва
@@ -164,14 +163,13 @@
           </div>
         </div>
       </section>
-
-      <footer class="footer">
-        <div class="footer-container container">
-          <p class="footer-text">Зроблено з любов'ю</p>
-          <img class="footer-img" src="img/footer-img.png" alt="футер">
-        </div>
-      </footer>
-
     </main>
+
+    <footer class="footer">
+      <div class="footer-container container">
+        <p class="footer-text">Зроблено з любов'ю</p>
+        <img class="footer-img" src="img/footer-img.png" alt="футер" />
+      </div>
+    </footer>
   </body>
 </html>
