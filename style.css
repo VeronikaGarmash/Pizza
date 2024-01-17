@@ -79,6 +79,10 @@ a{
     width: 550px;
 }
 
+.dough-title{
+    color: rgb(113, 27, 12);
+}
+
 .filling{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -101,7 +105,7 @@ a{
 }
 
 .facts{
-    background-color: blanchedalmond;
+    background-color: rgb(255, 167, 123);
 }
 
 .facts-container{
@@ -112,6 +116,10 @@ a{
 
 .facts-img{
     width: 550px;
+}
+
+.facts-title{
+    color: rgb(113, 27, 12);
 }
 
 .footer{
