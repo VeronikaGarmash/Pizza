@@ -58,9 +58,20 @@ a{
     font-size: 48px;
     font-weight: 700;
     color: rgb(113, 27, 12);
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
 }
 
 .hero-text{
+    font-size: 22px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+span{
     font-size: 22px;
 }
 
@@ -80,7 +91,21 @@ a{
 }
 
 .dough-title{
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 0.83em;
     color: rgb(113, 27, 12);
+}
+
+.dough-list{
+    list-style: disc;
+    margin-left: 50px;
+    margin-bottom: 1em;
+    font-size: 22px;
+}
+
+.dough-text{
+    font-size: 22px;
 }
 
 .filling{
@@ -96,12 +121,20 @@ a{
     width: 550px;
 }
 .filling-title {
+    font-size: 33px;
+    font-weight: 700;
     color: rgb(113, 27, 12);
+    margin-bottom: 0.83em;
 }
-.filling-list,
-.dough-list{
+.filling-list{
     list-style: disc;
     margin-left: 50px;
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+
+.filling-text{
+    font-size: 22px;
 }
 
 .facts{
@@ -115,11 +148,20 @@ a{
 }
 
 .facts-img{
+    margin-right: 30px;
     width: 550px;
 }
 
 .facts-title{
+    font-size: 33px;
+    margin-bottom: 0.83em;
     color: rgb(113, 27, 12);
+}
+
+.facts-list{
+    font-size: 22px;
+    margin-bottom: 1em;
+    list-style: disc;
 }
 
 .footer{
